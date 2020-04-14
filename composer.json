@@ -14,7 +14,7 @@
     ],
     "autoload":{
         "psr-4":{
-            "lukesky\\parser\\":"src/"
+            "vadikmaslov\\parser\\":"src/"
         }
     },
     "minimum-stability": "stable"
