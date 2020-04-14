@@ -1,0 +1,21 @@
+{
+    "name": "vadikmaslov/composer-example-package",
+    "description": "Example",
+    "type": "BSD-3",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Vadik Maslov",
+            "email": "vadikmaslov@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "lukesky\\parser\\":"src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
